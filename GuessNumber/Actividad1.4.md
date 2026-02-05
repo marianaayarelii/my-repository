@@ -1,4 +1,3 @@
-Instructions:
 The following program randomly generates an integer greater than or equal to 0 and less than 100. 
 The program then prompts the user to guess the number. If the user guesses the number correctly, the program outputs an appropriate message. 
 Otherwise, the program checks whether the guessed number is less than the random number. If the guessed number is less than the random the 
@@ -7,26 +6,24 @@ message, ‘‘Your guess is higher than the number’’. The program then prom
 random number until the user enters the correct number.
 The program uses the method random of the class Math to generate a random number.
 
-Inputs and outputs:
 We just used one input and is the number that the user writes, and we used 4 outputs in a text form that are the next: "Adivina el número!",
 "¡Felicidades, Adivinaste el número!", "Your guess is lower than the number, try again...", "Your guess is higher than the number, try again..."
 
-Variables:
 We used 2 variables: 1. "randomnumber" that keep the random number that was created by the computer just once in the compilation
 2. "usernumber" this is the number that the user writes, and it is changing each time that the user writes one different
 
-Analisys:
+
 The program must to generate one random number and the user have to guess which is the correct number trying the necesary times, but it seems
 difficult but too the program have to be evaluating if the number is higher o lower and for that reason it is more easy for the user
 
-Design: 
+
 1. Generates a random number
 2. to ask for the user to enter a number
 3. Compare the randomnumber with the user number
 4. Show a message depending on the result
 5. Repeat until the user guess the correct number
 
-Algorithm:
+
 Inicio
 
 Generar número aleatorio entre 0 y 99
@@ -42,7 +39,3 @@ Repetir
   Sino
       Mostrar mensaje indicando que el número es mayor
   Fin si
-    
-Hasta que el usuario adivine el número
-
-Fin
